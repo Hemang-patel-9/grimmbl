@@ -1,0 +1,239 @@
+/*title styling "GRIMMBL" start*/
+.title {
+	font-size: 3.4rem;
+	letter-spacing: 30px;
+	font-weight: bolder;
+}
+
+.title>span:nth-child(1) {
+	color: red;
+}
+
+.title>span:nth-child(2) {
+	color: maroon;
+}
+
+.title>span:nth-child(3) {
+	color: yellow;
+}
+
+.title>span:nth-child(4) {
+	color: yellowgreen;
+}
+
+.title>span:nth-child(5) {
+	color: green;
+}
+
+.title>span:nth-child(6) {
+	color: aqua;
+}
+
+.title>span:nth-child(7) {
+	color: blue;
+}
+
+/*title styling "GRIMMBL" end*/
+
+/* scrollbar thumb styling start */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(128, 128, 128, 0.577);
+	border-radius: 0px;
+	padding: 2px;
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	width: 2px;
+	border-radius: 20px;
+	background-image: linear-gradient(green, rgb(104, 140, 33));
+}
+
+/* scrollbar thumb styling end */
+
+/*person box styling start*/
+.uname,
+.upoints {
+	font-size: 1.12rem;
+	line-height: 10px;
+}
+
+/*person box styling end*/
+
+/*hintText styliing start*/
+.hintText {
+	font-size: 2rem;
+	margin-left: -13px;
+	letter-spacing: 11px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+/*hintText styliing end*/
+/* message box styling start */
+.msgBox {
+	height: 90%;
+	font-size: 1.4rem;
+}
+
+.actionBox>input,
+.actionBox>button {
+	margin-top: -10px;
+	height: 70%;
+	font-size: 1.2rem;
+}
+
+/* message box styling end */
+.circle,
+.square,
+.triangle {
+	background-color: rgba(128, 128, 128, 0.787);
+	border: 1px solid black;
+}
+
+.triangle {
+	clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.dustbin {
+	background-color: transparent;
+}
+
+.mygap {
+	gap: 10px;
+}
+
+.mygap>div {
+	height: 50%;
+}
+
+/* canvas actions styling start */
+.colors>p {
+	margin-left: 8px;
+}
+
+.shapes>p {
+	margin-left: 8px;
+}
+
+.actions>p {
+	margin-left: 8px;
+}
+
+.colors div div,
+.shapes div div,
+.actions div div {
+	transition: 0.3s;
+}
+
+.shapes div div:hover,
+.colors div div:hover,
+.actions div div:hover {
+	transform: scale(1.4);
+	transition: 0.1s;
+}
+
+#mycanvas {
+	background-color: white;
+}
+
+/* canvas actions styling end */
+/*actiove events start*/
+.activeColor {
+	transform: scale(1.4);
+	transform: 0.3s;
+}
+.mtInput
+{
+	margin-top:4px;
+}
+
+/*actiove events end*/
+@media screen and (min-width:555px) {
+	.title {
+		font-size: 3.1rem;
+	}
+
+	.uname,
+	.upoints {
+		font-size: 0.96rem;
+	}
+
+	.msgBox {
+		height: 80%;
+		font-size: 1rem;
+	}
+
+	.actionBox>input,
+	.actionBox>button {
+		height: 50%;
+		margin-top: -17px;
+		font-size: 0.8rem;
+	}
+
+	.mygap {
+		gap: 4px;
+	}
+
+	.shapes div div:hover,
+	.colors div div:hover,
+	.actions div div:hover {
+		transform: scale(1.17);
+		transition: 0.1s;
+	}
+
+	.mygap>div {
+		height: 45%;
+	}
+
+	.mtInput
+	{
+		margin-top: 0px;
+	}
+}
+
+@media screen and (min-width:902px) {
+	.title {
+		font-size: 3.4rem;
+	}
+
+	.uname,
+	.upoints {
+		font-size: 1rem;
+	}
+
+	.msgBox {
+		height: 90%;
+		font-size: 1.4rem;
+	}
+
+	.actionBox>input,
+	.actionBox>button {
+		margin-top: -9px;
+		height: 70%;
+		font-size: 1.2rem;
+	}
+
+	.shapes div div:hover,
+	.colors div div:hover,
+	.actions div div:hover {
+		transform: scale(1.3);
+		transition: 0.1s;
+	}
+
+	.mygap {
+		gap: 9px;
+	}
+
+	.mygap>div {
+		height: 50%;
+	}
+	.mtInput
+	{
+		margin-top: 4px;
+	}
+}
